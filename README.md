@@ -109,26 +109,19 @@ These analyses help identify meaningful relationships between performance indica
 Power BI file:  
 dashboard/Football_Player_Club_Stats_2025_powerbi.pbix  
 
-### Page 1 – Overview
-![Page1](dashboard/page1.png)
+![Page1](dashboard/Page1.png)
 
-### Page 2 – Player Analysis
-![Page2](dashboard/page2.png)
+![Page2](dashboard/Page2.png)
 
-### Page 3 – Club Analysis
-![Page3](dashboard/page3.png)
+![Page3](dashboard/Page3.png)
 
-### Page 4 – Market Value
-![Page4](dashboard/page4.png)
+![Page4](dashboard/Page4.png)
 
-### Page 5 – Position Analysis
-![Page5](dashboard/page5.png)
+![Page5](dashboard/Page5.png)
 
-### Page 6 – League Comparison
-![Page6](dashboard/page6.png)
+![Page6](dashboard/Page6.png)
 
-### Page 7 – Discipline
-![Page7](dashboard/page7.png)
+![Page7](dashboard/Page7.png)
 
 ## 🛠️ Tools & Technologies
 
