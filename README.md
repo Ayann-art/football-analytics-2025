@@ -110,10 +110,13 @@ Power BI file:
 dashboard/Football_Player_Club_Stats_2025_powerbi.pbix  
 
 ## Page 1 – Club Value Overview
-1.This page provides a high-level overview of club market values across selected leagues.
-2.Compares total club values.Highlights value differences between leagues and clubs.
-3.Enables quick identification of financially strong teams.
-4.Purpose: To understand how market value is distributed among clubs
+This page provides a high-level overview of club market values across selected leagues.
+
+Compares total club values.Highlights value differences between leagues and clubs.
+
+Enables quick identification of financially strong teams.
+
+Purpose: To understand how market value is distributed among clubs
 
 ![Page1](dashboard/Page1.png)
 
