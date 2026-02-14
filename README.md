@@ -1,126 +1,148 @@
-# ⚽ Football Player & Club Analytics 2025
-End-to-End Data Analytics Project
+## ⚽ Football Analytics 2025
+Player & Club Performance Analysis
 
----
+## 📌 Project Overview
 
-#  Project Overview
+This project presents a complete end-to-end football analytics pipeline for the 2025 season.
+It combines manual data collection, data cleaning in Python, statistical analysis, and interactive Power BI dashboards.
 
-This project presents an end-to-end data analytics pipeline for analyzing football players and clubs for the 2025 season using Python, Excel, and Power BI.
+The main objective is to analyze football players and clubs across different leagues using performance, physical, financial, and structural indicators.
 
-The main objective is to explore player and club performance, market values, positional distributions, disciplinary records, and league-level differences using statistical analysis and data visualization.
+The project demonstrates:
 
-The project demonstrates real-world data analytics skills including data collection, cleaning, feature engineering, statistical analysis, and dashboard development.
+Manual data sourcing
 
----
+Data preprocessing & transformation
 
-## 🗂️ Project Structure
+Exploratory Data Analysis (EDA)
 
-data/
- ├── raw/
- │    └── Football_Player_Club_Stats_2025_RAW.xlsx
- └── clean/
-      └── Football_Player_Club_Stats_2025_CLEAN.xlsx
+Analytical pivot reporting
 
-notebooks/
- └── Player_stats.ipynb
+Interactive dashboard development
 
-dashboard/
- ├── Football_Player_Club_Stats_2025_powerbi.pbix
- ├── page1.png
- ├── page2.png
- ├── page3.png
- ├── page4.png
- ├── page5.png
- ├── page6.png
- └── page7.png
+## 📂 Dataset
+🔹 Raw Dataset
 
+Location: data/raw/Football_Player_Club_Stats_2025_RAW.xlsx
 
-## 📊 Dataset
+Fully manually collected by the author.
 
-Two versions of the dataset are provided:
+Data gathered from official football websites and trusted public sources.
 
-Raw dataset:  
-data/raw/Football_Player_Club_Stats_2025_RAW.xlsx  
+Includes player-level and club-level attributes such as:
 
-Clean dataset:  
-data/clean/Football_Player_Club_Stats_2025_CLEAN.xlsx  
+Position
 
-The raw dataset was manually collected and structured.  
-The clean dataset was produced after preprocessing in Python.
+Age
 
-Main attributes include:
+Nationality
 
-- Player Name  
-- Age  
-- Position  
-- Club  
-- League  
-- Market Value  
-- Appearances  
-- Goals  
-- Assists  
-- Minutes Played  
-- Yellow Cards  
-- Red Cards  
+Market Value (€)
 
+Height & Weight
 
-##  Data Cleaning & Preparation (Python)
+Contract Expiry
 
-Data preprocessing steps:
+League & Club information
 
-- Handling missing values  
-- Converting data types  
-- Removing invalid symbols and characters  
-- Outlier detection  
-- Z-score analysis  
-- Quantile-based analysis  
-- Feature engineering  
-- Correlation analysis  
-- Distribution and skewness analysis  
+## ⚠️ The dataset was not downloaded from any public repository.
+## All research, validation, and structuring were performed manually.
 
+🔹 Clean Dataset
 
-##  Exploratory Data Analysis (EDA)
+Location: data/clean/Football_Player_Club_Stats_2025_CLEAN.xlsx
 
-The following analyses were performed:
+Created after preprocessing in Python.
 
-- Player performance distributions  
-- Market value distributions  
-- Positional comparisons  
-- League-level comparisons  
-- Correlation between numerical variables  
-- Detection of extreme values (outliers)  
-- Visualization using boxplots, histograms, and scatter plots  
+Applied steps:
 
+Removal of unnecessary columns
 
-##  Statistical Analysis
+Standardization of column names
 
-The notebook includes:
+Missing value handling
 
-- Hypothesis testing  
-- Z-score calculations  
-- Correlation testing  
-- Distribution analysis  
-- Feature engineering for performance metrics  
+Data type corrections
 
-These analyses help identify meaningful relationships between performance indicators.
+Feature engineering
 
-## Power BI Dashboard
+## 📊 Pivot Tables Included
 
-Power BI file:  
-dashboard/Football_Player_Club_Stats_2025_powerbi.pbix  
+The clean dataset includes three pivot tables created for analytical summarization:
+
+Position-based player distribution
+
+League & club summary comparison
+
+Market value aggregations
+
+These pivot tables support fast high-level reporting and dashboard integration.
+
+## 🐍 Python Analysis
+
+Notebook location:
+notebooks/Player_stats.ipynb
+
+## 📚 Libraries Used
+
+NumPy
+
+Pandas
+
+Matplotlib
+
+Seaborn
+
+SciPy
+
+## 🔎 Analysis Performed
+
+Descriptive statistics
+
+Correlation analysis
+
+Distribution analysis
+
+Outlier detection
+
+Position-based comparisons
+
+Market value segmentation
+
+Contract expiry evaluation
+
+Python was primarily used for:
+
+Data cleaning
+
+Feature preparation
+
+Statistical exploration
+
+Pre-dashboard validation
+
+## 📊 Power BI Dashboard
+
+Location: dashboard/Football_Player_Club_Stats_2025_powerbi.pbix
+
+A multi-page interactive dashboard was developed to visualize insights from the dataset.
 
 ## Page 1 – Club Value Overview
+
 This page provides a high-level overview of club market values across selected leagues.
 
-Compares total club values.Highlights value differences between leagues and clubs.
+Compares total club values
 
-Enables quick identification of financially strong teams.
+Highlights value differences between leagues and clubs
 
-Purpose: To understand how market value is distributed among clubs
+Enables quick identification of financially strong teams
+
+Purpose: Understand how market value is distributed among clubs.
 
 ![Page1](dashboard/Page1.png)
 
 ## Page 2 – Player Value Decomposition
+
 This page explores how total player market value is distributed by:
 
 Position
@@ -129,7 +151,7 @@ Nationality
 
 Age
 
-Purpose: To identify which player characteristics contribute most to overall market value.
+Purpose: Identify which player characteristics contribute most to overall market value.
 
 ![Page2](dashboard/Page2.png)
 
@@ -137,27 +159,27 @@ Purpose: To identify which player characteristics contribute most to overall mar
 
 This page focuses on individual club profiles.
 
-Displays key club information.
+Displays key club information
 
-Shows squad composition and position distribution.
+Shows squad composition
 
-Presents basic historical and infrastructure indicators.
+Presents position distribution
 
-Purpose: To evaluate clubs from a structural perspective.
+Purpose: Evaluate clubs from a structural perspective.
 
 ![Page3](dashboard/Page3.png)
 
-## Page 4– Player Profile Analysis
+## Page 4 – Player Profile Analysis
 
 This page provides a player-level overview.
 
-Displays personal, physical, and performance-related attributes.
+Physical attributes
 
-Shows contribution to squad and match involvement.
+Performance indicators
 
-Includes disciplinary and injury indicators.
+Disciplinary and injury metrics
 
-Purpose: To analyze players holistically using multiple performance dimensions
+Purpose: Analyze players holistically.
 
 ![Page4](dashboard/Page4.png)
 
@@ -165,14 +187,13 @@ Purpose: To analyze players holistically using multiple performance dimensions
 
 This page analyzes overall league structure.
 
-Domestic vs foreign player distribution.
+Domestic vs foreign players
 
-Position breakdown.
+Position distribution
 
+Nationality diversity
 
-Nationality diversity.
-
-Purpose: To understand squad composition patterns at league level.
+Purpose: Understand squad-building patterns at league level.
 
 ![Page5](dashboard/Page5.png)
 
@@ -180,11 +201,11 @@ Purpose: To understand squad composition patterns at league level.
 
 This page visualizes player nationalities on a world map.
 
-Shows geographic distribution of players.
+Geographic distribution
 
-Supports filtering by team and league.
+Interactive filtering
 
-Purpose: To explore international diversity of players.
+Purpose: Explore international diversity of players.
 
 ![Page6](dashboard/Page6.png)
 
@@ -192,31 +213,39 @@ Purpose: To explore international diversity of players.
 
 This page analyzes player contract expiration periods.
 
-Displays contract distribution by year.
+Contract distribution by year
 
-Includes position-based segmentation.
+Position-based segmentation
 
-Purpose: To support long-term squad planning and contract management.
+Purpose: Support long-term squad planning.
 
 ![Page7](dashboard/Page7.png)
 
-## 🛠️ Tools & Technologies
+## 📁 Project Structure
+football-analytics-2025/
+│
+├── data/
+│   ├── raw/
+│   └── clean/
+│
+├── notebooks/
+│
+├── dashboard/
+│   ├── Football_Player_Club_Stats_2025_powerbi.pbix
+│   └── visuals/
+│
+└── README.md
 
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Excel  
-- Power BI  
 
 ## 🎯 Project Objectives
 
+- Manual data collection
 - Build a structured football dataset  
 - Clean and preprocess real-world data  
 - Perform statistical and exploratory analysis  
 - Create meaningful visualizations  
-- Develop interactive dashboards  
+- Develop interactive dashboards
+- Pivot reporting
 - Demonstrate end-to-end data analytics skills  
 
 ## 👤 Author
