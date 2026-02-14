@@ -109,15 +109,15 @@ These analyses help identify meaningful relationships between performance indica
 Power BI file:  
 dashboard/Football_Player_Club_Stats_2025_powerbi.pbix  
 
-Page 1 – Club Value Overview
-This page provides a high-level overview of club market values across selected leagues.
-Compares total club values.Highlights value differences between leagues and clubs.
-Enables quick identification of financially strong teams.
-Purpose: To understand how market value is distributed among clubs
+## Page 1 – Club Value Overview
+1.This page provides a high-level overview of club market values across selected leagues.
+2.Compares total club values.Highlights value differences between leagues and clubs.
+3.Enables quick identification of financially strong teams.
+4.Purpose: To understand how market value is distributed among clubs
 
 ![Page1](dashboard/Page1.png)
 
-Page 2 – Player Value Decomposition
+## Page 2 – Player Value Decomposition
 This page explores how total player market value is distributed by:
 Position
 Nationality
@@ -126,7 +126,7 @@ Purpose: To identify which player characteristics contribute most to overall mar
 
 ![Page2](dashboard/Page2.png)
 
-Page 3 – Club Profile Analysis
+## Page 3 – Club Profile Analysis
 This page focuses on individual club profiles.
 Displays key club information.
 Shows squad composition and position distribution.
@@ -135,7 +135,7 @@ Purpose: To evaluate clubs from a structural perspective.
 
 ![Page3](dashboard/Page3.png)
 
-Page 4– Player Profile Analysis
+## Page 4– Player Profile Analysis
 This page provides a player-level overview.
 Displays personal, physical, and performance-related attributes.
 Shows contribution to squad and match involvement.
@@ -144,7 +144,7 @@ Purpose: To analyze players holistically using multiple performance dimensions
 
 ![Page4](dashboard/Page4.png)
 
-Page 5 – League Composition
+## Page 5 – League Composition
 This page analyzes overall league structure.
 Domestic vs foreign player distribution.
 Position breakdown.
@@ -152,7 +152,8 @@ Nationality diversity.
 Purpose: To understand squad composition patterns at league level.
 
 ![Page5](dashboard/Page5.png)
-Page 6 – Global Player Distribution
+
+## Page 6 – Global Player Distribution
 This page visualizes player nationalities on a world map.
 Shows geographic distribution of players.
 Supports filtering by team and league.
@@ -160,7 +161,7 @@ Purpose: To explore international diversity of players.
 
 ![Page6](dashboard/Page6.png)
 
-Page 7 – Contract Timeline Analysis
+## Page 7 – Contract Timeline Analysis
 This page analyzes player contract expiration periods.
 Displays contract distribution by year.
 Includes position-based segmentation.
