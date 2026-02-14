@@ -1,9 +1,9 @@
-⚽ Football Player & Club Analytics 2025
+# ⚽ Football Player & Club Analytics 2025
 End-to-End Data Analytics Project
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
 This project presents an end-to-end data analytics pipeline for analyzing football players and clubs for the 2025 season using Python, Excel, and Power BI.
 
