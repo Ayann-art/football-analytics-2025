@@ -122,52 +122,80 @@ Purpose: To understand how market value is distributed among clubs
 
 ## Page 2 – Player Value Decomposition
 This page explores how total player market value is distributed by:
+
 Position
+
 Nationality
+
 Age
+
 Purpose: To identify which player characteristics contribute most to overall market value.
 
 ![Page2](dashboard/Page2.png)
 
 ## Page 3 – Club Profile Analysis
+
 This page focuses on individual club profiles.
+
 Displays key club information.
+
 Shows squad composition and position distribution.
+
 Presents basic historical and infrastructure indicators.
+
 Purpose: To evaluate clubs from a structural perspective.
 
 ![Page3](dashboard/Page3.png)
 
 ## Page 4– Player Profile Analysis
+
 This page provides a player-level overview.
+
 Displays personal, physical, and performance-related attributes.
+
 Shows contribution to squad and match involvement.
+
 Includes disciplinary and injury indicators.
+
 Purpose: To analyze players holistically using multiple performance dimensions
 
 ![Page4](dashboard/Page4.png)
 
 ## Page 5 – League Composition
+
 This page analyzes overall league structure.
+
 Domestic vs foreign player distribution.
+
 Position breakdown.
+
+
 Nationality diversity.
+
 Purpose: To understand squad composition patterns at league level.
 
 ![Page5](dashboard/Page5.png)
 
 ## Page 6 – Global Player Distribution
+
 This page visualizes player nationalities on a world map.
+
 Shows geographic distribution of players.
+
 Supports filtering by team and league.
+
 Purpose: To explore international diversity of players.
 
 ![Page6](dashboard/Page6.png)
 
 ## Page 7 – Contract Timeline Analysis
+
 This page analyzes player contract expiration periods.
+
 Displays contract distribution by year.
+
 Includes position-based segmentation.
+
 Purpose: To support long-term squad planning and contract management.
 
 ![Page7](dashboard/Page7.png)
