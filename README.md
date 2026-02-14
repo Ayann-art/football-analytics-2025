@@ -3,7 +3,7 @@ End-to-End Data Analytics Project
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project presents an end-to-end data analytics pipeline for analyzing football players and clubs for the 2025 season using Python, Excel, and Power BI.
 
@@ -34,7 +34,6 @@ dashboard/
  ├── page6.png
  └── page7.png
 
----
 
 ## 📊 Dataset
 
@@ -64,9 +63,8 @@ Main attributes include:
 - Yellow Cards  
 - Red Cards  
 
----
 
-## 🧹 Data Cleaning & Preparation (Python)
+##  Data Cleaning & Preparation (Python)
 
 Data preprocessing steps:
 
@@ -80,9 +78,8 @@ Data preprocessing steps:
 - Correlation analysis  
 - Distribution and skewness analysis  
 
----
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 The following analyses were performed:
 
@@ -94,9 +91,8 @@ The following analyses were performed:
 - Detection of extreme values (outliers)  
 - Visualization using boxplots, histograms, and scatter plots  
 
----
 
-## 📈 Statistical Analysis
+##  Statistical Analysis
 
 The notebook includes:
 
@@ -108,23 +104,31 @@ The notebook includes:
 
 These analyses help identify meaningful relationships between performance indicators.
 
----
+## Power BI Dashboard
 
-## 📊 Power BI Dashboard
+Power BI file:  
+dashboard/Football_Player_Club_Stats_2025_powerbi.pbix  
 
-An interactive Power BI dashboard was developed with 7 pages:
+### Page 1 – Overview
+![Page1](dashboard/page1.png)
 
-- Overview  
-- Player Performance Analysis  
-- Club Analysis  
-- Market Value Analysis  
-- Position Analysis  
-- League Comparison  
-- Discipline (Cards)  
+### Page 2 – Player Analysis
+![Page2](dashboard/page2.png)
 
-The dashboard provides an intuitive way to explore trends and compare players and clubs.
+### Page 3 – Club Analysis
+![Page3](dashboard/page3.png)
 
----
+### Page 4 – Market Value
+![Page4](dashboard/page4.png)
+
+### Page 5 – Position Analysis
+![Page5](dashboard/page5.png)
+
+### Page 6 – League Comparison
+![Page6](dashboard/page6.png)
+
+### Page 7 – Discipline
+![Page7](dashboard/page7.png)
 
 ## 🛠️ Tools & Technologies
 
@@ -136,8 +140,6 @@ The dashboard provides an intuitive way to explore trends and compare players an
 - Excel  
 - Power BI  
 
----
-
 ## 🎯 Project Objectives
 
 - Build a structured football dataset  
@@ -147,9 +149,7 @@ The dashboard provides an intuitive way to explore trends and compare players an
 - Develop interactive dashboards  
 - Demonstrate end-to-end data analytics skills  
 
----
-
 ## 👤 Author
 
-Lalisaa
+Ayan
 
